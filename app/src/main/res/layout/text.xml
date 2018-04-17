@@ -1,0 +1,84 @@
+<TableLayout android:id="@+id/table"
+
+    android:layout_width="wrap_content"
+    android:background="@color/colorAccent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="姓名"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:background="@color/colorPrimary"
+            android:text="学校"
+            android:textSize="12sp" />
+        <TextView android:text="专业"
+            android:textSize="12sp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="1dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="张飞"
+            android:textSize="12sp"
+            android:background="@color/colorPrimary"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <TextView android:text="野鸡大学"
+            android:textSize="12sp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="1dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <TextView android:text="体育系"
+            android:textSize="12sp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="1dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="刘备"
+            android:textSize="12sp"
+            android:background="@color/colorPrimary"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <TextView android:text="皇家学院"
+            android:textSize="12sp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="1dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <TextView android:text="经济"
+            android:textSize="12sp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="1dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+</TableLayout>

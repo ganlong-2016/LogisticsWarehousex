@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800px"
+    android:layout_height="match_parent"
+    android:background="#7f7a7a"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="80px"
+        android:background="#f6f6f6"
+        android:text="   零售商信息"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="商店名称："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/order_shopName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="电话号码："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/order_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="地址："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/order_address"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+</LinearLayout>

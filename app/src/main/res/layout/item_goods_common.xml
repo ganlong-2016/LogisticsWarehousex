@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7f7a7a"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="退货后应收货款："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/text_payment_after_return"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="回瓶数量："
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/edit_return_bottle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="回瓶单价："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/text_bottle_unitprice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="回瓶可抵扣金额："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/text_returnedBottleDeductible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="瓶盖数量："
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/edit_bottleCapQuantity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="瓶盖单价："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/text_bottleCapUnitPrice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="瓶盖可抵扣金额："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/text_returnedBottleCapDeductible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="塑箱数量："
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/text_plasticbox_quantity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="塑箱单价："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/text_plasticbox_unitprice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="塑箱可抵扣金额："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/text_plasticbox_deductible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:gravity="end"
+            android:text="抵扣后应收取货款："
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/text_final_payment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_weight="5"
+            android:background="#f6f6f6"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="50px" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/button_dialog_positive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7f7a7a"
+        android:text="确定" />
+</LinearLayout>
+
